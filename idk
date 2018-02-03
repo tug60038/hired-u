@@ -8,7 +8,7 @@
 	<meta name="keywords" content="KEY, WORDS, HERE">
 	 <style>
 .dropbtn {
-    background-color: #3498DB;
+    background-color: #ff3300;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -17,7 +17,7 @@
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #b32400;
 }
 
 .dropdown {
