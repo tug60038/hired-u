@@ -52,27 +52,14 @@
 		<div class="dropdown">
   			<button onclick="myFunction()" class="dropbtn">Dropdown</button>
   			<div id="myDropdown" class="dropdown-content">
-    			<a href="https://www.linkedin.com/">Art Institute of Philadelphia</a>
-    			<a href="">Chestnut Hill College</a>
-    			<a href="">The Curtis Institute of Music</a>
-    			<a href="">Devry University</a>
-    			<a href="">Drexel University</a>
-    			<a href="">Gwynedd Mercy University</a>
-    			<a href="">Holy Family University</a>
-    			<a href="">La Salle University</a>
-    			<a href="">Moore College of Art and Design</a>
-    			<a href="">Peirce College</a>
-    			<a href="">Pennsylvania Academdy of the Fine Arts University</a>
-    			<a href="">Philadelphia University University</a>
-    			<a href="">The Restaurant School at Walnut Hill College</a>
-    			<a href="">Saint Joseph's University</a>
-    			<a href="">Strayer University, Center City Campus</a>
-    			<a href="">Temple University (GO OWLS!)</a>
-    			<a href="">Thomas Jefferson University</a>
-    			<a href="">University of the Arts</a>
-    			<a href="">University of Pennsylvania</a>
-    			<a href="">University of the Science in Philadelphia</a>
-
+    			<a href="chesnuthill.html">Chestnut Hill College</a>
+    			<a href="drexel.html">Drexel University</a>
+    			<a href="holyfamily.html">Holy Family University</a>
+    			<a href="lasalle.html">La Salle University</a>
+    			<a href="stjoe.html">Saint Joseph's University</a>
+    			<a href="temple.html">Temple University </a>
+    			<a href="jefferson.html">Thomas Jefferson University</a>
+    			<a href="upenn.html">University of Pennsylvania</a>
   			</div>
 		</div>
 		<script>
