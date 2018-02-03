@@ -48,7 +48,7 @@
 </style>
 </head>
 	<body>
-		<h1>THIS IS NOT IMPOOSIBLE, YOU GOT IT!!!! GAMBATE!!!!</h1>
+		<img src="https://i.imgur.com/CRn6k6P.png">
 		<div class="dropdown">
   			<button onclick="myFunction()" class="dropbtn">Dropdown</button>
   			<div id="myDropdown" class="dropdown-content">
