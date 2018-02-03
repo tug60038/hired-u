@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HIRED-U</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="DESCRIBE YOUR WEBSITE">
+  <meta name="keywords" content="KEY, WORDS, HERE">
+   <style>
+.dropbtn {
+    background-color: #ff3300;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #b32400;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+
+.jobdropbtn {
+    background-color: #ff3300;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.jobdropbtn:hover, .dropbtn:focus {
+    background-color: #b32400;
+}
+
+.jobDropDown {
+    position: relative;
+    display: inline-block;
+}
+
+.jobButton {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.jobButton a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.jobButton a:hover {background-color: #ddd}
+
+.jobshow {display:block;}
+</style>
+</head>
+  <body>
+    <img src="https://i.imgur.com/CRn6k6P.png">
+
+    <div class="jobdropdown">
+      <button onclick="myFunction()" class="jobdropbtn">Choose Job</button>
+      <div id="myjobDropdown" class="jobButton">
+      <a href="">Campus Jobs</a>
+      <a href="">Student Jobs</a>
+      </div>
+    </div>
+    <script>
+function myFunction() {
+    document.getElementById("myjobDropdown").classList.toggle("jobshow");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.jobdropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("jobButton");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('jobshow')) {
+        openDropdown.classList.remove('jobshow');
+      }
+    }
+  }
+}      
+    </script>
+<br>
+<br>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Choose College</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="chesnuthill.html">Chestnut Hill College</a>
+          <a href="drexel.html">Drexel University</a>
+          <a href="holyfamily.html">Holy Family University</a>
+          <a href="lasalle.html">La Salle University</a>
+          <a href="stjoe.html">Saint Joseph's University</a>
+          <a href="temple.html">Temple University </a>
+          <a href="jefferson.html">Thomas Jefferson University</a>
+          <a href="upenn.html">University of Pennsylvania</a>
+        </div>
+    </div>
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+    </body>
+</html>
